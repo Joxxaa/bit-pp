@@ -231,6 +231,9 @@ by 1 and by itself).
 Input: 17 | 15
 Output: true | false*/
 
+
+//KOMENTAR: Za vrednost 15 sam dobio da mi je to Prime number :) Sta mislis zbog cega?
+
 /*function prime(num) {
     for (i = 2; i < num; i++) {
         if ( num % i != 0 ) {
@@ -246,6 +249,8 @@ console.log(sprovedi);*/
 /*11. Check if a given string is a palindrome (spaces are ignored).
 Input: eye | Geek | a nut for a jar of tuna
 Output: true | false | true*/
+
+// Komentar: lepo uradjeno. Probaj da poboljsas da bi radilo za sledeci slucaj: "Ana voli Milovana". Trenutno vraca da to nije palindrom.
 
 /*function equalString(string) {
     var newString = string.split('').reverse().join('');
