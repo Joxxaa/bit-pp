@@ -210,3 +210,5 @@ function printFrame(arr) {
 
 var sprovedi = printFrame(["Hello", "World", "in", "a", "frame"]);
 console.log(sprovedi);
+
+// Komentar: odlicno!
