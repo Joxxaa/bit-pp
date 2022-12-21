@@ -50,6 +50,10 @@
 // Input: [-1, 8.1, 3, 6, 2.3, 44, 2.11]
 // Output: 4
 
+//KOMENTAR: Znam da znas ovo da uradis, pa cu samo napisati sta si trebao bez da ocekujem da ispravis (znam da bi znao).
+// Ovde je ideja da prvo nadjes sredisnji element niza, pa da prodjes kroz ceo niz i nadjes koliko ima elemenata manjih od njega.
+// Ponavljam, ne moras ispraviti jer znam da znas da uradis :)
+
 // function countElements(arr) {
 //     if (arr.length % 2 == 0) {
 //         return "Error!";
