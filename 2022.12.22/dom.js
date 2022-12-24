@@ -52,6 +52,9 @@ createDropDown(["mercedes", "audi", "vw", "bmw"], 'last');
 //nisam odradio prvi div zato što mislim da će da se poremeti struktura u DOM-u,
 //moja je greška što sam radio sve zadatke u jednom fajlu. Ako treba odradiću
 //sve posebno..
+
+// Nema potrebe da radis posebno. Malo stranica poludi, ali ne brinem za tebe kao sto rekoh :) 
+
 function validate() {
 //     var fname = document.getElementById('fname');
 //    if (!fname.hasAttributes()) {
