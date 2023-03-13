@@ -1,4 +1,4 @@
-(figi) = require("./figletForServer.js")
+// (figi) = require("./figletForServer.js")
 const { figi } = require('./figletForServer.js');
 const http = require('http');
 const hostname = '127.0.0.1';
@@ -13,6 +13,3 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
     console.log('Server running at http://' + hostname + ':' + port + '/');
 });
-
-//nisam uspeo da ga namolim da radi, ne znam gde grešim
-//izbacuje stalno grešku: Uncaught ReferenceError ReferenceError: Cannot access 'figlet' before initialization
