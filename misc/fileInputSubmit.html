@@ -1,0 +1,43 @@
+<!--File input/Submit
+● Create a form used for submitting &quot;Then VS Now&quot; dieting/workout images
+and a description
+● The form should contain two file input fields
+● Both of the fields are file inputs
+o They are used by the user for uploading the pictures of them and
+showing what they looked like before they started working out, and
+how they look now
+
+● The page has to have an area where the user can put a picture description
+● At the end of the form, there should be a submit button with text &quot;Send&quot;
+that is used to submit the form
+● The form is submitted on page &quot;handle-upload.html&quot; and the user is
+redirected to it upon pressing the button
+● This page should contain just a &quot;Form submitted successfully&quot;! message-->
+<html>
+    <head>
+        <title>
+            Then VS Now
+        </title>
+    </head>
+    <body>
+        <form action="./handle-upload.html">
+            <p>Upload your picture before your diet</p>
+            <input type="file" name="before"><br>
+            <p>Describe your picture before your diet</p>
+            <textarea name="then" id="then" cols="30" rows="10" minlength="5"></textarea>
+            <p>Upload your picture after your diet</p>
+            <input type="file" name="before"><br>
+            <p>Describe your picture after your diet</p>
+            <textarea name="VS" id="VS" cols="30" rows="10" minlength="5"></textarea>
+           <input type="reset" value="Reset">
+           <a href="C:\Users\Joxa\Documents\VS code projects\handle-upload.html">
+            <input type="submit"/>
+          </a>
+           
+            <input type="image" src="https://i.pinimg.com/originals/a5/bc/dd/a5bcdd47a1cded2da258ace8bbe7f1ec.jpg" width="100" height="50">
+            
+   
+        </form>
+
+    </body>
+</html>

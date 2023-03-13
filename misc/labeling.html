@@ -1,0 +1,59 @@
+<!--
+● Creates a form used for catering reservations
+
+● The form contains multiple elements split into groups
+● Each element should have a label assigned to it
+First group
+● Name of the group should be &quot;Personal data&quot;
+● The first field is for the name
+● The second one is for the email address
+● The third is for the phone number
+Second group
+● Name of the group should be &quot;Location&quot;
+● It should contain fields for:
+○ City
+○ Street
+○ Street number
+Third group
+● Name of the group should be &quot;Event info&quot;
+● The first element is dropdown containing the following options:
+○ birthday
+○ wedding (should be selected by default)
+○ company
+● The second element is for getting number of expected guests and it’s
+an input type number
+● Placeholder is a number you choose
+-->
+<html>
+    <body>
+        <form action="">
+        <p>Personal data</p>
+        <label for="fname">First name</label>
+        <input type="text" name="fname" id="fname"><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="number">Phone number</label>
+        <input type="number" name="number" id="number"><br>
+        <hr>
+        <p>Location</p>
+        <label for="city">City</label>
+        <input type="text" name="city" id="city"><br>
+        <label for="street">Street</label>
+        <input type="text" name="street" id="street"><br>
+        <label for="strNumber">Street number</label>
+        <input type="number" name="strNumber"" id="strNumber""><br>
+        <hr>
+        <p>Event info</p>
+        <p>What is your event?</p>
+        <label for="event">Event</label>
+        <select name="event" id="event">
+            <option value="birthday">Birthday</option>
+            <option value="wedding" selected>Wedding</option>
+            <option value="company">Company</option>
+        </select>
+        <br>
+        <label for="guests">How many guests are you expecting?</label>
+        <input type="number" name="guests" id="guests" placeholder="150">
+    </form>
+    </body>
+</html>
