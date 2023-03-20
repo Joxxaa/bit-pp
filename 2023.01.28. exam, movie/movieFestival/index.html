@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./CSS/main.css">
+    </head>
+    <body>
+        <p><h5>Title</h5></p>
+        <input id="movieTitle" type="text" placeholder="Movie title">
+        <p><h5>Length (min)</h5></p>
+        <input id="movieLength" type="text" placeholder="Movie length">
+        <div>
+        <select name="genre" id="genre">
+            <option>Genre</option>
+            <option>Drama</option>
+            <option>Action</option>
+            <option>Comedy</option>
+            <option>Thriller</option>
+            <option>Horror</option>
+            <option>Documentary</option>
+            <option>Science fiction</option>
+        </select>
+    </div>
+    <div id="error"></div>
+    <button id="createMovie" type="submit">Create movie</button>
+    <div id="showMovie"></div>
+    </body>
+    <script src="./JS/entities.js"></script>
+    <script src="./JS/form.js"></script>
+</html>

@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Exam statistics July</h1>
+            <p>Total students: <strong id="totalStudents">0</strong></p>
+            <div id="passed">PASSED <strong id="passedStudents">0</strong></div>
+            <p id="percentage">0%</p>
+            <div id="failed">FAILED <strong id="failedStudents">0</strong></div>
+        </div>
+    </header>
+    <nav>
+        <select id="subjects">
+            <option>Subject</option>
+            <option>JavaScript</option>
+            <option>Java</option>
+            <option>PhP</option>
+            <option>Python</option>
+            <option>SQL</option>
+        </select>
+        <input id="student" type="text" placeholder="Name lastname">
+        <select id="grades">
+            <option>Grade</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>
+        <input class="button" id="butt" type="submit" value="ADD" />
+
+    </nav>
+    <main>
+        <div id="passedList"><p> PASSED</p><hr></div>
+        <div id="failedList"><p> FAILED</p><hr></div>
+    </main>
+</body>
+<script src="./JS/app.js"></script>
+<script src="./JS/exam.js"></script>
+<script src="./JS/form.js"></script>
+<script src="./JS/student.js"></script>
+<script src="./JS/subject.js"></script>
+</html>

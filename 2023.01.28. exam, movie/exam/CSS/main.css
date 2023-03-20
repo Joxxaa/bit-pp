@@ -1,0 +1,68 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    display: block;
+    height: 33%;
+    background-image: url("./german-lieterature-to-read-article.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#passed,
+#failed {
+    display: flex;
+    flex: 0.33;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #01c9c9;
+    max-width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#failed {
+    background-color: #dc143c;
+}
+
+#percentage {
+
+    background-color: #b21030;
+    font-size: 16px;
+    width: 30px;
+    text-align: left;
+    padding: 5px;
+    border-style: none;
+}
+
+nav {
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    font-size: 14px;
+    color: #01c9c9;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main>div {
+    width: 500px;
+    margin: 0;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+#failedList>p {
+    color: #dc143c;
+}

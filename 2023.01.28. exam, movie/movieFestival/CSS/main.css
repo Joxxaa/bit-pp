@@ -1,0 +1,23 @@
+* {
+    font-family: arial;
+}
+#movieTitle, #movieLength, #genre, #createMovie {
+    width: 95%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 3px;
+}
+#createMovie {
+    background-color: green;
+    border: 1px solid blue;
+    color: white;
+}
+h5 {
+    margin: 20px;
+}
+#error, #showMovie {
+    text-align: center;
+}
+#error {
+    color: red;
+}
